@@ -1,5 +1,8 @@
-Kimel TIGRlab - general
-=======================
+Important Links
+===============
+
+Kimel Lab - General
+-------
 
 `Lab website (GitHub) <http://imaging-genetics.camh.ca/>`__. This is the
 most-used website, that has member profiles, information about projects
@@ -36,8 +39,8 @@ journal submission websites, and data repositories. Please add and edit
 passwords as required. Ask a staff member for up-to-date login
 credentials.
 
-Kimel TIGRlab - data management
-===============================
+Kimel Lab - Data Management
+---------------
 
 `QC Dashboard <srv-dashboard.camhres.ca>`__. The Dashbaord was developed
 in the lab to facilitate QA and QC of imaging data. The Dashboard
@@ -54,8 +57,8 @@ St. Mikes <https://redcap.smh.ca/redcap/>`__, and `regulated clinical
 trials <https://redcap.camhx.ca/redcap/index.php?action=myprojects>`__
 also have their own instance at CAMH.
 
-CAMH general
-============
+CAMH - General
+--------------
 
 **IT HelpDesk: ext 6011.** Call to report IT issues related to CAMH
 infrastructure, such as expired credentials, wifi connectivity, etc.

@@ -1,5 +1,8 @@
-Lab research themes
-===================
+Lab Research
+============
+
+Research Themes
+---------------
 
 **Combining brain imaging and genetics.** The lab's work combined
 genetics and brain imaging, which allows for the examination of gene
@@ -25,8 +28,8 @@ neuroimaging studies, and uses data-driven methods to disentangle the
 heterogeneity within and across psychiatric disorders using multiple
 levels of data.
 
-Current projects
-================
+Current Projects
+----------------
 
 A list with a bit of information about each project in the archive is
 `here <https://docs.google.com/spreadsheets/d/1dxZLK5twDQ2Yc030DuY3C6DKLPxrI3tI3n_UgP6xZ4A/edit?usp=sharing>`__.
@@ -47,8 +50,8 @@ member's projects: \*
 \*
 `2012 <https://drive.google.com/file/d/1wyskApR1kobf7cUxYbAmQpXsH9ZxhFk9/view?usp=sharing>`__
 
-Most significant (recent) publications
-======================================
+Most Significant (Recent) Publications
+--------------------------------------
 
 Note: this list is taken from Dr. Voineskos' general CV, updated
 04-30-2018.

@@ -4,11 +4,10 @@ Tips for Reproducible Research
 `Go to Erin's Lab meeting slide for on this
 topic <https://docs.google.com/presentation/d/1XhfGayWVvSP9IfOl-6UOyYEhznlx286NkwuP1sxTjBU/edit?usp=sharing>`__
 
-here are some links to useful tutorial sites on the topic
----------------------------------------------------------
+Here are some links to useful tutorial sites on the topic
 
 Using Git
-~~~~~~~~~
+---------
 
 We have a very basic overview of how to `use git
 here <https://github.com/TIGRLab/documentation/wiki/Using-Git>`__.
