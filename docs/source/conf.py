@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'documentation'
+project = 'TIGRLab Documentation'
 copyright = '2019, Kimel Family Translational Imaging-Genetics Research Lab'
 author = 'Kimel Family Translational Imaging-Genetics Research Lab'
 

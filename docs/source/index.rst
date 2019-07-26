@@ -10,14 +10,14 @@ right for general lab documentation.
 | For `datman documentation`_
 | For `dashboard documentation`_
 
-Welcome to documentation's documentation!
-=========================================
+Welcome to TIGRLab's documentation!
+===================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   intro_to_tigrlab_computer_system
+   onboarding/intro_to_tigrlab_computer_system
    lab_research
    important_links
    software
