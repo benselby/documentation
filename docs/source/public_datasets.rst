@@ -1,1 +1,0 @@
--  `Girder <https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3>`__
