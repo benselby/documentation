@@ -9,11 +9,11 @@ If you notice something wrong with our systems (workstations, queue, file system
 
 If you follow that link it will take you to page that looks like below. Click the 'New Issue' button on the top right to get started.
 
-[[ https://github.com/TIGRLab/documentation/blob/master/imgs/how_to_make_issue.png ]]
+![](../_images/how_to_make_issue.png)
 
 After you've clicked the button it should bring up a list of issue templates you can choose from or you can choose to open a blank issue if your problem does not fit into these categories. The templates, if one is relevant to your problem, will help guide you to write a more informative issue and help make it easier for us to resolve your problem.
 
-[[ https://github.com/TIGRLab/documentation/blob/master/imgs/blank_issue.png ]]
+![](../_images/blank_issue.png)
 
 ## Help with CAMH Problems
 CAMH has a website for general IT help [available here](http://scotty.camh.ca/) (including info on [how to reset your CAMH password](http://scotty.camh.ca/how-to/reset-your-password)). Generally anything you need can be found by searching on insite.camh.net if you're using a computer on the camh network.

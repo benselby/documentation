@@ -1,9 +1,11 @@
-- Getting started
+- Introduction/Onboarding
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [Start Here](introduction/New-TIGRLab-Member-To-Do-List.md)
+  - [Filesystem Organization](introduction/Filesystem-Organization.md)
+  - [Modules](introduction/Modules.md)
+  - [Queue Basics](introduction/Queue-basics.md)
+  - [Getting Help](introduction/Getting-Help.md)
+  - [Lab Research](introduction/Lab-research.md)
 
 - Customization
 
