@@ -11,12 +11,15 @@
 
   - [Remote Access](technical_skills/beginner/Remote-Access.md)
   - [SciNet](technical_skills/beginner/SciNet.md)
+  - [Writing SLURM Scripts](technical_skills/beginner/Writing-Slurm-scripts.md)
   - [Using the Terminal](technical_skills/beginner/Using-The-Terminal.md)
   - [Using Git](technical_skills/beginner/Using-Git.md)
   - [The bashrc file](technical_skills/beginner/The-bashrc-file.md)
   - [Introduction to Coding](technical_skills/beginner/Introduction-to-Coding.md)
   - [Tips for Reproducible Research](technical_skills/beginner/Tips-for-reproducible-research.md)
   - [Using Python Virtual Environments](technical_skills/beginner/Using-Python-Virtual-Environments.md)
+  - [Python 2-3 Transition](technical_skills/beginner/Python-2—3-Transition.md)
+  - [Writing Python Tests](technical_skills/advanced/Writing-Tests.md)
 
 - Resources
 
@@ -44,6 +47,7 @@
   - [Organization](data/advanced/Data-Organization.md)
   - [Archiving Pipelines](data/advanced/Archive-Pipelines.md)
   - [Renaming CAMH Scans](data/advanced/Renaming-CAMH-Scans-with-scans.csv.md)
+  - [Dashboard Database](data/advanced/Dashboard-Database.md)
 
 - Other
 
