@@ -31,8 +31,10 @@ Once you have both accounts and SCC access set up you can access our system remo
 4. In this Chrome window go to https://jupyter.camh.ca/hub/login
 5. Log in with your SCC/TIGRlab account
 6. Once you're in you should see a 'new' button on the top right. If you click this, at the bottom of the menu there is a 'terminal' option. Clicking this will open a terminal on the SCC.
-![](../_images/jupyter_terminal.png)
-7. From here you can work on the SCC or you can ssh into your lab computer with `ssh yourkimelusername@yourmachinename`
+
+![](../../_images/jupyter_terminal.png)
+
+1. From here you can work on the SCC or you can ssh into your lab computer with `ssh yourkimelusername@yourmachinename`
 
 NOTE: If you ever need to view files graphically (eg. html files from a QC pipeline's output), you can navigate to your home directory and symlink them there. 
 Eg. 
