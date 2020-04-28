@@ -17,32 +17,10 @@
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 2,
-      search: 'auto', // default
-      search : [
-        '/',            // => /README.md
-        '/introduction',       // => /guide.md
-        '/technical_skills',
-        '/resources', // => /get-started.md
-        '/offboarding',      // => /zh-cn/README.md
-        '/data',
-        '/other'
-      ],
-      // complete configuration parameters
       search: {
-        maxAge: 86400000, // Expiration time, the default one day
-        paths: [], // or 'auto'
+        paths: 'auto', // default
         placeholder: 'Type to search',
-        // Localization
-        placeholder: {
-          '/zh-cn/': '搜索',
-          '/': 'Type to search'
-        },
         noData: 'No Results!',
-        // Localization
-        noData: {
-          '/zh-cn/': '找不到结果',
-          '/': 'No Results'
-        },
         // Headline depth, 1 - 6
         depth: 2,
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
