@@ -5,6 +5,7 @@
 ## Here are some links to useful tutorial sites on the topic
 
 ### Using Git
+
 We have a very basic overview of how to [use git here](https://github.com/TIGRLab/documentation/wiki/Using-Git).
 
 Jenny Bryan's Happy Git with R book is a super comprehensive book (still in draft form) that details how to use git for an R analysis project using the helper tools in rstudio. ([find it here](http://happygitwithr.com/))
@@ -29,4 +30,5 @@ These papers do an excellent job of explaining the motivation behind these and h
 For the current versions of the BIDS specification files see (http://bids.neuroimaging.io/).
 
 ## Bookdown and R markdown for R
+
 Erin highly recommends using R markdown and using the tool [bookdown](https://bookdown.org/yihui/bookdown/) for R projects.

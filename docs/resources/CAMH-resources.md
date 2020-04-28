@@ -1,3 +1,5 @@
+# CAMH Resources
+
 **IT HelpDesk: ext 6011.** Call to report IT issues related to CAMH infrastructure, such as expired credentials, wifi connectivity, etc.
 
 **Maintenance: ext 30000.** Call to request assistance with cleaning, garbage removal, repairs, etc.
@@ -8,4 +10,4 @@
 
 [CAMH Secure File Transfer (SFT)](filetransfer.camh.ca) allows has strong encryption, automatic receipt notification, and transfer of up to 2GB.
 
-[Remote Access](https://remote.camh.ca/vpn/index.html) - CAMH allows access to some services, including a Google Chrome browser that's on the internal network, through their 'remote' portal. 
+[Remote Access](https://remote.camh.ca/vpn/index.html) - CAMH allows access to some services, including a Google Chrome browser that's on the internal network, through their 'remote' portal.

@@ -1,3 +1,5 @@
+# Private Modules
+
 Private modules can be used to install your own software without sudo permissions and to help you manage versions of software you need just for yourself.
 
 ## Setting up your Private Modules
