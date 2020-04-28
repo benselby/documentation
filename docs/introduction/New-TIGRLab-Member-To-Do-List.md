@@ -1,3 +1,5 @@
+# New Lab Member To Do List
+
 As a new lab member here are the first things you should do to get settled in to the lab:
 
 - [ ] **Get a lab account:** Talk to an admin (Dawn) and get a lab account set up so you can use all of our workstations.

@@ -1,25 +1,32 @@
-### Lab research themes
+# Lab Research
+
+## Themes
 
 **Combining brain imaging and genetics.** The lab's work combined genetics and brain imaging, which allows for the examination of gene effects on the brain, thus identifying susceptible neural structures and functions influenced by
 putative risk genes. Genes code for brain structure and function, rather than psychiatric symptoms, and thus, gene effects are likely more penetrant at the level of the brain rather than behaviour. This approach may also allow for early identification of vulnerable brain structures conferred by risk genes, before the onset of psychiatric symptoms, where early identification of disease is a major goal in clinical neuroscience research in psychiatry. This approach is applied to several severe mental illnesses across the human lifespan, from childhood and youth into late-life.
 
-**Neuroimaging in clinical trials.** The lab has also recently been using neuroimaging in the context of clinical trials to understand the effects of existing and novel therapeutics on the brain, and to better understand brain-based mechanisms of treatment response. 
+**Neuroimaging in clinical trials.** The lab has also recently been using neuroimaging in the context of clinical trials to understand the effects of existing and novel therapeutics on the brain, and to better understand brain-based mechanisms of treatment response.
 
 **Data-driven applications toward dissecting heterogeneity in psychiatric disorders.**
 The lab is also a lead of multi-centre neuroimaging studies, and uses data-driven methods to disentangle the heterogeneity within and across psychiatric disorders using multiple levels of data.
 
-### Current projects
-A list with a bit of information about each project in the archive is [here](https://docs.google.com/spreadsheets/d/1dxZLK5twDQ2Yc030DuY3C6DKLPxrI3tI3n_UgP6xZ4A/edit?usp=sharing). Similar and sometimes more detailed information can be reviewed on the Dashboard and in XNAT. 
+## Current Projects
 
-See our Foundation reports for a summary description of each lab member's projects:
-* [2017](https://drive.google.com/open?id=1EaTEYZN6cDU6r9B1Tmv6u7gOBU2kP_KJ)
-* [2016](https://drive.google.com/open?id=0B6yB0-2m4D1-WFVNSGRpZHgtN2c)
-* [2015](https://drive.google.com/file/d/1tXRtfDFeS40dkUG2fWDsO-AX3J-Inoz-/view?usp=sharing)
-* [2014](https://drive.google.com/file/d/1v4iURu4pYhpWtrNZ4fJ7EkHkWxQuy9Qm/view?usp=sharing)
-* [2013](https://drive.google.com/file/d/1wyskApR1kobf7cUxYbAmQpXsH9ZxhFk9/view?usp=sharing)
-* [2012](https://drive.google.com/file/d/1wyskApR1kobf7cUxYbAmQpXsH9ZxhFk9/view?usp=sharing) 
+A list with a bit of information about each project in the archive is [here](https://docs.google.com/spreadsheets/d/1dxZLK5twDQ2Yc030DuY3C6DKLPxrI3tI3n_UgP6xZ4A/edit?usp=sharing). Similar and sometimes more detailed information can be reviewed on the Dashboard and in XNAT.
 
-### Most significant (recent) publications
+See our Foundation reports for a summary description of each lab member's projects:\
+
+- [2019]
+- [2018]
+- [2017](https://drive.google.com/open?id=1EaTEYZN6cDU6r9B1Tmv6u7gOBU2kP_KJ)
+- [2016](https://drive.google.com/open?id=0B6yB0-2m4D1-WFVNSGRpZHgtN2c)
+- [2015](https://drive.google.com/file/d/1tXRtfDFeS40dkUG2fWDsO-AX3J-Inoz-/view?usp=sharing)
+- [2014](https://drive.google.com/file/d/1v4iURu4pYhpWtrNZ4fJ7EkHkWxQuy9Qm/view?usp=sharing)
+- [2013](https://drive.google.com/file/d/1wyskApR1kobf7cUxYbAmQpXsH9ZxhFk9/view?usp=sharing)
+- [2012](https://drive.google.com/file/d/1wyskApR1kobf7cUxYbAmQpXsH9ZxhFk9/view?usp=sharing)
+
+### Most Significant (Recent) Publications
+
 Note: this list is taken from Dr. Voineskos' general CV, updated 04-30-2018.
 
 1. Roostaei T, Nazeri A, Felsky D, De Jager PL, Schneider JA, Pollock BG, Bennett DA, Voineskos AN,
@@ -41,4 +48,4 @@ Alzheimer’s Disease Neuroimaging Initiative (ADNI). [Genome-wide interaction s
 
 5. Viviano J, Buchanan R, Calarco N, Gold J, Foussias G, Bhagwat N, Stefanik L, Hawco C, DeRosse P, Argyelan M,Turner J, Chavez S, Kochunov P, Kingsley P, Zhou X, Malhotra A, Voineskos AN. [Resting-state connectivity biomarkers of cognitive performance and social function in Schizophrenia Spectrum Disorders and healthy controls](https://www.sciencedirect.com/science/article/pii/S0006322318314392). Biological Psychiatry. In Press.
 
-     _In this multi-centre research domain criteria study, we found different patterns of neural circuit activation during functional brain imaging using machine learning tools that were independent of diagnostic group. These patterns were related to neurocognitive and social cognitive performance. We then replicated these findings in an independent sample. Our findings provide new neuroimaging endpoints for cognitive function, that can be tested in target-engagement-based intervention studies._
+     _In this multi-centre research domain criteria study, we found different patterns of neural circuit activation during functional brain imaging using machine learning tools that were independent of diagnostic group. These patterns were related to neurocognitive and social cognitive performance. We then replicated these findings in an independent sample. Our findings provide new neuroimaging endpoints for cognitive function, that can be tested in target-engagement-based intervention studies.
