@@ -7,24 +7,21 @@
   - [Getting Help](introduction/Getting-Help.md)
   - [Lab Research](introduction/Lab-research.md)
 
-- Customization
+- Technical Skills
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
+  - [Remote Access](technical_skills/beginner/Remote-Access.md)
+  - [SciNet](technical_skills/beginner/SciNet.md)
+  - [Using the Terminal](technical_skills/beginner/Using-The-Terminal.md)
+  - [Using Git](technical_skills/beginner/Using-Git.md)
+  - [The bashrc file](technical_skills/beginner/The-bashrc-file.md)
+  - [Introduction to Coding](technical_skills/beginner/Introduction-to-Coding.md)
+  - [Tips for Reproducible Research](technical_skills/beginner/Tips-for-reproducible-research.md)
+  - [Using Python Virtual Environments](technical_skills/beginner/Using-Python-Virtual-Environments.md)
 
-- Guide
+- Resources
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+- Offboarding
 
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- Data
+
+- Other
