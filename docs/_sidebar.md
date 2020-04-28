@@ -1,3 +1,5 @@
+[//]: <> (This handles the ordering of the pages in the sidebar.you can also have a navigation bar across the top. that gets reflected in the _navbar.md file.)
+
 - Introduction/Onboarding
 
   - [Start Here](introduction/New-TIGRLab-Member-To-Do-List.md)
