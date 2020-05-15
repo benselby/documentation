@@ -18,6 +18,26 @@ Once you have completed the first step go to `insite.camh.net` (if you're outsid
 
 On the next page select 'User account' in the 'Non-clinical' field and select 'Other accounts and special requests' and enter 'Requesting access to MobaXTerm'. And then click send. Your request needs to be approved by both your manager and David Rotenberg (and they should both be notified automatically once the form is sent). If there are any delays you may need to follow up with them.
 
+Some tips for the MobaXTerm terminal courtesy of Jerry (here are screen shortcuts)
+
+```
+screen -S <session_name> - this starts a session with a name
+screen -dr <session_name> - this reattaches a session with a name
+screen -ls - view all sessions that are currently available
+shortcuts:
+ctrl-a + d - to detach a currently running screen session
+ctrl-a + '|' - to split vertically
+ctrl-a + shift-S - to split horizontally
+ctrl-a + <tab> - to switch between panes
+ctrl-a + esc - to enter copy-paste mode where you can move the cursor w/arrow keys and highlight text to copy using <space>
+ctrl-a + c create a new window in that session
+ctrl-a + k kill that new window
+ctrl-a + n to go to the next window
+ctrl-a + d to go to the previous window
+ctrl-a + x to kill the second little box if you '|', the windows will still be available via (ctrl-a d/n)
+Note: killing all screen windows will cause the screen session to end entirely.
+```
+
 ### 3. Logging in remotely
 
 After you have MobilePASS and approval to use MobaXTerm and have Citrix set up on your machine navigate to [remote.camh.ca](remote.camh.ca). Select `VPN Access - CAMH Laptops Only`, enter your CAMH username and password, and the 8-digit code you generate with the MobilePASS app.
