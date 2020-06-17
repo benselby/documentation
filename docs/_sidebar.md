@@ -55,6 +55,7 @@
 
   - [Software](other/Software.md)
   - [SOP Tracking Documents](other/SOP-Tracking-Documents.md)
+  - [Editing Documentation](other/Editing-Documentation.md)
 
 - Methods
 

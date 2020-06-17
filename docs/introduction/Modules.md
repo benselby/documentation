@@ -18,7 +18,7 @@ Our lab's modules aren't available by default on the SCC. To add them to the `mo
 
 ## Private Modules
 
-Private modules are like regular modules but they're available only to the user that makes them. This means that users who are not system admins can install _some_ software of their own and load it as they need it. If you think you might need this, you can learn more at [Private Modules](https://github.com/TIGRLab/documentation/wiki/Private-Modules)
+Private modules are like regular modules but they're available only to the user that makes them. This means that users who are not system admins can install _some_ software of their own and load it as they need it. If you think you might need this, you can learn more at [Private Modules](/resources/Private-Modules)
 
 ## Additional Info
 

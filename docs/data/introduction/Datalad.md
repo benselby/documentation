@@ -9,11 +9,11 @@ This document briefly describes the usage and purpose of [DataLad](https://www.d
 
 ## Version Control: git and datalad
 
-For a brief primer on version control using `git`, follow [this link](https://github.com/TIGRLab/documentation/wiki/Using-Git). Essentially, `git` is a system for tracking the changes made to text files. You should be using it to keep track of any code or scripts you write as part of this lab, and you should *certainly* be using it for any code on which you intend to collaborate with others.
+For a brief primer on version control using `git`, follow [this link](/technical_skills/beginner/Using-Git). Essentially, `git` is a system for tracking the changes made to text files. You should be using it to keep track of any code or scripts you write as part of this lab, and you should *certainly* be using it for any code on which you intend to collaborate with others.
 
 What `git` is to code and plain text files, `datalad` is to large data files. In Kimel Lab, we use `datalad` to track all changes made to the datasets we have access to; in practice, this is (or should be) all files located in `/archive/data/[Study]`.
 
-Practically, this serves the purpose of enhancing [reproducibility of research](https://github.com/TIGRLab/documentation/wiki/Tips-for-reproducible-research). `datalad` can be used to ‘*lock down*’ data files so no changes can be made to them except those which `datalad` records. It also allows us, via our [TIGR_PURR](https://tigrlab-nextflow-personal.readthedocs.io/en/latest/) system, to automatically track which version of a pipeline was used and what effects (if any) came from varying the versions of the software we use when processing data.
+Practically, this serves the purpose of enhancing [reproducibility of research](/technical_skills/beginner/Tips-for-reproducible-research). `datalad` can be used to ‘*lock down*’ data files so no changes can be made to them except those which `datalad` records. It also allows us, via our [TIGR_PURR](https://tigrlab-nextflow-personal.readthedocs.io/en/latest/) system, to automatically track which version of a pipeline was used and what effects (if any) came from varying the versions of the software we use when processing data.
 
 Most importantly for users, however, `datalad` allows the remote sharing of data, much as `git` does for code; this means that you can use `datalad` to quickly and painlessly download exactly the data you want, where you want, without also downloading very large amounts of data you *may not want*. If you’re only interested in working with the `T1w` files from some study, `datalad` allows you to remotely acquire *only*, say, `T1w` files (or any other subset of files easily describable from the command line), without also downloading the entire rest of the study dataset.
 
@@ -23,7 +23,7 @@ Finally, since you will also often be working with data here in the lab but *wil
 
 ## Install your first dataset, get your first data
 
-To start using `datalad`, you need to be ready to use `git`. If you’re not already a regular `git` user, now is the time to [start](https://github.com/TIGRLab/documentation/wiki/Using-Git). To begin with, we’ll make a `.gitconfig` file. This file stores information regarding your identity (and other options that aren’t relevant here), which `datalad` needs to know about so it can track *who has done what to the data being shared*. If you don’t already have a `.gitconfig` file, running the following commands from the command line will create yours:
+To start using `datalad`, you need to be ready to use `git`. If you’re not already a regular `git` user, now is the time to [start](/technical_skills/beginner/Using-Git). To begin with, we’ll make a `.gitconfig` file. This file stores information regarding your identity (and other options that aren’t relevant here), which `datalad` needs to know about so it can track *who has done what to the data being shared*. If you don’t already have a `.gitconfig` file, running the following commands from the command line will create yours:
 
 ```sh
 git config --global user.name "FirstName (optional: MiddleInitial) LastName"

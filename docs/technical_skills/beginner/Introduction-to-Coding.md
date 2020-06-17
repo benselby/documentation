@@ -13,7 +13,7 @@ Also check out the [lab cookie cutter](https://github.com/TIGRLab/TIGRLab_cookie
 
 ## Version Control
 
-You need to track your changes as you hack, keep a record of what you did and why, and share your code with others. You need a version control system. I recommend you learn [Git](https://git-scm.com) and learn how to use [github](https://github.com) to host your code repository online. You can check out our wiki page [Using Git](https://github.com/TIGRLab/documentation/wiki/Using-Git) for an overview of a basic workflow and some tips.
+You need to track your changes as you hack, keep a record of what you did and why, and share your code with others. You need a version control system. I recommend you learn [Git](https://git-scm.com) and learn how to use [github](https://github.com) to host your code repository online. You can check out our wiki page [Using Git](/technical_skills/beginner/Using-Git) for an overview of a basic workflow and some tips.
 
 ## Editors / Integrated Development Environments (IDEs)
 

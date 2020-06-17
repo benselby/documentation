@@ -1,6 +1,6 @@
 # Queue Basics
 
-This page gives an overview of what a queue is and the basics of how it works. If you're looking for information on the queues that are available to us and how to access them [see here](https://github.com/TIGRLab/documentation/wiki/Compute-Clusters). If you're looking for documentation for our queue [see here](https://github.com/TIGRLab/TIGRSlurm-Docs).
+This page gives an overview of what a queue is and the basics of how it works. If you're looking for information on the queues that are available to us and how to access them [see here](/resources/Compute-Clusters). If you're looking for documentation for our queue [see here](https://github.com/TIGRLab/TIGRSlurm-Docs).
 
 ## What the heck is a queue anyway?
 

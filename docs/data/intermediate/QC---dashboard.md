@@ -2,18 +2,18 @@
    - Anyone doing quality control for the lab
 
 ## Contents
-[Intro](https://github.com/TIGRLab/documentation/wiki/QC---dashboard/_edit#idea-intro)  
-[Logging in](https://github.com/TIGRLab/documentation/wiki/QC---dashboard/_edit#--logging-in)  
-[Navigating the Dashboard](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#computer-navigating-the-dashboard)  
-:white_small_square:[Overview](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#one-overview-)  
-:white_small_square:[Session QC](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#two-session-qc-)  
-:white_small_square:[Sessions](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#three-sessions-)  
-:white_small_square:[Phantoms](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#four-phantoms-)  
-:white_small_square:[Subjects](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#five-subjects-)  
-[Posting a GitHub Issue, Blacklisting, and Signing Off](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#posting-a-github-issue-blacklisting-and-signing-off)  
-[Communication](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#e-mail--communication)  
-[Feedback](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#--feedback)  
-[Important links](https://github.com/TIGRLab/documentation/wiki/QC---dashboard#important-links)  
+[Intro](#tada-intro)  
+[Logging in](#unlock-logging-in)  
+[Navigating the Dashboard](#computer-navigating-the-dashboard)  
+:white_small_square:[Overview](#one-overview)  
+:white_small_square:[Session QC](#two-session-qc)  
+:white_small_square:[Sessions](#three-sessions)  
+:white_small_square:[Phantoms](#four-phantoms)  
+:white_small_square:[Subjects](#five-subjects)  
+[Posting a GitHub Issue, Blacklisting, and Signing Off](#posting-a-github-issue-blacklisting-and-signing-off)  
+[Communication](#email-communication)  
+[Feedback](#wrench-feedback)  
+[Important links](#important-links)  
 
 ---
 
@@ -31,7 +31,7 @@ The Dashboard authenticates users via GitHub, which means that, if you do not ha
 
 ---
 
-###:computer: Navigating the Dashboard
+### :computer: Navigating the Dashboard
 
 On the Dashboard's landing page, you will see a list of the studies that you have been granted access to.
 
@@ -43,7 +43,8 @@ Each study has 5 tabs that contain different information for your review:
 :five: Subjects
 
 
-#### :one: Overview ![overview](https://cloud.githubusercontent.com/assets/13733654/20948416/11d0c1a8-bbe2-11e6-9a35-440d689e55a2.png)
+#### :one: Overview 
+![overview](https://cloud.githubusercontent.com/assets/13733654/20948416/11d0c1a8-bbe2-11e6-9a35-440d689e55a2.png)
 
 The `Overview` tab is just that; it provides some basic READ-ME-type information about a given study, including full study name, and PI and study RA contact information.
 
@@ -51,7 +52,8 @@ You should add any information here that you think is essential for others condu
 
 ---
 
-#### :two: Session QC ![sessionqc](https://cloud.githubusercontent.com/assets/13733654/20948434/23fdc088-bbe2-11e6-9272-a0e0bad0004b.png)
+#### :two: Session QC 
+![sessionqc](https://cloud.githubusercontent.com/assets/13733654/20948434/23fdc088-bbe2-11e6-9272-a0e0bad0004b.png)
 
 The `Session QC` tab will indicate all of the scans that have yet to be signed off on at a given point in time. Our system looks for new scans once per day and adds to this list. When a scan is signed off on, it will be removed from the list in real-time.
 
@@ -78,13 +80,15 @@ In some unusual cases, flagged header differences that we know to be important _
  
 ---
 
-#### :three: Sessions ![sessions](https://cloud.githubusercontent.com/assets/13733654/20948439/2afdc838-bbe2-11e6-9830-eca6890fcc22.png)
+#### :three: Sessions 
+![sessions](https://cloud.githubusercontent.com/assets/13733654/20948439/2afdc838-bbe2-11e6-9830-eca6890fcc22.png)
 
 The `Sessions` tab displays a paginated list of sessions, which can be filtered by using the search box in the top-right corner. Clicking on a session name will bring you to that session's html QC page. All sessions are displayed here, including both those that have and have not been QC'd (a checkmark icon beside the participant ID indicates a session has been signed off on, whereas the pencil and paper icon indicates it is still outstanding).  The `Sessions` tab contains both human subject data and phantom data (if applicable). 
 
 ---
 
-#### :four: Phantoms ![phantoms](https://cloud.githubusercontent.com/assets/13733654/20948445/32bb9ac8-bbe2-11e6-81ca-1cd89d518c2d.png)
+#### :four: Phantoms 
+![phantoms](https://cloud.githubusercontent.com/assets/13733654/20948445/32bb9ac8-bbe2-11e6-81ca-1cd89d518c2d.png)
 
 The `Phantoms` tab displays data from a given study's non-human phantom data collection. Phantoms are not conducted in all studies; thus, this tab might be blank in your study. If data exists, the following information is available:
 
@@ -100,7 +104,8 @@ T1 |c4 |T1 contrast measure | Should be constant over time
 
 ---
 
-#### :five: Subjects ![subjects](https://cloud.githubusercontent.com/assets/13733654/20948375/d6648280-bbe1-11e6-8098-8d8dda6c6210.png)
+#### :five: Subjects 
+![subjects](https://cloud.githubusercontent.com/assets/13733654/20948375/d6648280-bbe1-11e6-8098-8d8dda6c6210.png)
 
 The `Subjects` tab provides a comparison of various MRI metrics across all participants (i.e., over time). It's important to review this sort of data as (i) it provides a quick, visual indication if one particular session differs drastically from others (i.e., an outlier), (ii) if there's some sort of gradual but important shift in data over time, and, if applicable, (iii) if there's a bias between sites.
 
@@ -139,14 +144,14 @@ _On some rare occasions, it might be the case that a given participant's entire 
 _Note:_ If you are familiar with QC in the terminal (our prior system) as opposed to the Dashboard, you will recall that we used to both blacklist and delete data; that is no longer the case. The blacklist is now operating such that all sessions indicated on it are automatically removed and prevented from re-appearing in our file system. So, for all intents and purposes, blacklisting data via the Dashboard is equivalent to both blacklisting and deleting on the old system.
 
 
-##### :pen: Signing off 
+##### :pencil2: Signing off 
 
 Once you are certain that (i) the participant's scan in our system is as complete as it will ever be and (ii) you have clarified/resolved any issues, you can sign off on the scan.  Do so by clicking the pencil icon in the `Session QC` tab. Do not sign off on a scan until all Issues have been resolved, as the act of signing off triggers various processing pipelines.
 
 
 ---
 
-### :e-mail:  Communication 
+### :email: Communication 
 
 It's essential to keep in mind that several of the issues you encounter while QCing may be of interest to others. For instance, if you notice that many participants exhibit extensive motion during an experimental task, you should inform the study RA that they might better emphasize the importance of staying still. If you notice MRI Tech or scanner-caused artifacts, you need to inform us and the MRI Centre, so that these artifacts are scrutinized elsewhere, and corrected. If you find that a protocol is often not completed for lack of time, you should ensure that the PI knows the frequency with which final series are being dropped. Or, if a particular participant's scan is virtually unusable due to poor quality (especially if the poor quality is _not_ a result of participant behaviour), the PI might want to be notified, so that the possibility of rescanning the participant can be considered. These are but a few examples. The important point is that you communicate any findings that bear on others reliably and quickly.
 
@@ -158,7 +163,7 @@ Please, please, please give us some, about anything that you like, don't like, a
 
 ---
 
-###Important links
+### Important links
 [QC manual](https://github.com/TIGRLab/documentation/files/530007/qual-qc-manual.pdf)   
 [TIGRlab QC staff contacts](https://docs.google.com/spreadsheets/d/1MTuU7Y7hqAHbiHMP2NsnrW1wZ9UZrmz4AQpJCQ1-_BQ/edit?usp=sharing)  
 [TIGRlab GitHub 'issues' page](https://github.com/tigrlab/admin/issues)  

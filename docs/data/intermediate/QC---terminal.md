@@ -1,13 +1,13 @@
-### Note:  We've largely moved QC over to our new QC [Dashboard](https://github.com/TIGRLab/documentation/wiki/QC---Dashboard).
+### Note:  We've largely moved QC over to our new QC [Dashboard](/data/intermediate/QC---dashboard).
 
-###A brief introduction to QC for external groups
+### A brief introduction to QC for external groups
 
-[Generating the QC list](https://github.com/TIGRLab/documentation/wiki/QC#page_facing_up--generating-the-qc-list)  
-[Opening a QC document](https://github.com/TIGRLab/documentation/wiki/QC#file_folder--opening-a-qc-document)  
-[Evaluating Scan Completeness](https://github.com/TIGRLab/documentation/wiki/QC#thought_balloon--evaluating-scan-completeness)  
-[Evaluating Scan Quality](https://github.com/TIGRLab/documentation/wiki/QC#thought_balloon--evaluating-scan-quality)  
-[Signing off](https://github.com/TIGRLab/documentation/wiki/QC#pen-signing-off)  
-[Communication](https://github.com/TIGRLab/documentation/wiki/QC#e-mail--communication)
+[Generating the QC list](#page_facing_up-generating-the-qc-list)  
+[Opening a QC document](#file_folder-opening-a-qc-document)  
+[Evaluating Scan Completeness](#thought_balloon-evaluating-scan-completeness)  
+[Evaluating Scan Quality](#thought_balloon-evaluating-scan-quality)  
+[Signing off](#pencil2-signing-off)  
+[Communication](#email-communication)
 
 ### :page_facing_up:  Generating the QC list
 
@@ -71,7 +71,7 @@ Sometimes, data should be discarded. The first, most common example of when this
 
 The second situation in which you might want to delete data is if an acquisition's quality is so poor that it's unusable without question, even if the particular scan has not been re-acquired.
 
-#####Deleting
+##### Deleting
 ➕ In the terminal, navigate to your study's data folder by typing `cd ~/../../archive/data/STUDYNAME/data`    
 ➕ Copy the file name of the acquisition, _without_ the `.nii.gz` extension, from the _header_ of the QC document    
 ➕ In the terminal, type `find . -name FILENAME*`  
@@ -81,7 +81,7 @@ The second situation in which you might want to delete data is if an acquisition
 
 If you've made a mistake, don't panic. Deleting data from our file system doesn't mean it's gone forever. But please let us know right away.
 
-#####Blacklisting
+##### Blacklisting
 If you followed the steps above, you've successfully deleted the data. Now, we need to ensure that the data doesn't come back (our system looks for discrepancies between our file system and our imaging database, and it brings in discrepant files that have not been blacklisted). In short, we ensure that deleted files stay deleted by adding those files to `blacklist.csv`.
 
 ➕ In the terminal, navigate to `cd ~/../../archive/data/STUDYNAME/metadata`  
@@ -90,7 +90,7 @@ If you followed the steps above, you've successfully deleted the data. Now, we n
 ➕ Indicate the reason that the scan has been deleted/blacklisted  
 ➕ When complete, type `Ctrl``X`, `Y`, and then `Enter` to save and exit blacklist.csv    
 
-### :pen: Signing off 
+### :pencil2: Signing off 
 
 Once you are certain that (i) the participant's scan in our system is as complete as it will ever be and (ii) you have clarified/resolved any issues, you can sign off on the scan.  Do not sign off on a scan until all issues have been resolved, as the act of signing off triggers various processing pipelines.
 
@@ -103,13 +103,13 @@ Once you are certain that (i) the participant's scan in our system is as complet
 ➕ If applicable, include brief notes about (i) scan quality, (ii) missing or extra scans, (iv) 'blacklisted' scans, and (iv) participant behaviour as reported by MRI Tech or RA    
 ➕ When complete, type `Ctrl``X`, `Y`, and then `Enter` to save and exit checklist.csv  
 
-### :e-mail:  Communication 
+### :email:  Communication 
 
 It's essential to keep in mind that several of the issues you encounter while QCing may be of interest to others. For instance, if you notice that many participants exhibit extensive motion during an experimental task, you should inform the study RA that they might better emphasize the importance of staying still. If you notice MRI Tech or scanner-caused artifacts, you need to inform us and the MRI Centre, so that these artifacts are scrutinized elsewhere, and corrected. If you find that a protocol is often not completed for lack of time, you should ensure that the PI knows the frequency with which final series are being dropped. Or, if a particular participant's scan is virtually unusable due to poor quality (especially if the poor quality is _not_ a result of participant behaviour), the PI might want to be notified, so that the possibility of rescanning the participant can be considered.
 
 These are but a few examples. The important point is that you communicate any findings that bear on others reliably and quickly.
 
-#####Summary of links
+##### Summary of links
 [QC manual](https://github.com/TIGRLab/documentation/files/530007/qual-qc-manual.pdf)   
 [TIGRlab QC staff contacts](https://docs.google.com/spreadsheets/d/1MTuU7Y7hqAHbiHMP2NsnrW1wZ9UZrmz4AQpJCQ1-_BQ/edit?usp=sharing)  
 [TIGRlab GitHub 'issues' page](https://github.com/tigrlab/admin/issues)  

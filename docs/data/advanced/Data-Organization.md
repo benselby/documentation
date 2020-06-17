@@ -79,7 +79,7 @@ This folder contains a lot of interested information used by `datman` to manage 
 + `blacklist.csv`: Contains a list of bad files (at the scan level) that should **not** be exported from XNAT into the raw file formats. These files will not be available for analysis in any form due to data artifacts or incidental findings. A short note will accompany the scan identifying the reason for exclusion.
 + `greylist.csv`: A list of suspicious files. Not sure if they are OK to analyze or not (this is up to you), but still flagged for some reason. It's a good idea to look at this list before analyzing your data.
 + `checklist.csv`: Keeps track of the qc outputs that have been looked at, and those that are still outstanding.
-+ `exportinfo.csv`: Uses [regular expressions, or regex](http://www.aivosto.com/vbtips/regex.html) to map between the 'DICOM discription field' of the header to the appropriate 'tag' (e.g., DTI-60, RST; see [Data Naming Convention](https://github.com/TIGRLab/documentation/wiki/Data-Naming) for more details). The tag is used by our pipelines to figure out which kind of analysis to do for a given dataset, and can be used by you to find all available data:
++ `exportinfo.csv`: Uses [regular expressions, or regex](http://www.aivosto.com/vbtips/regex.html) to map between the 'DICOM discription field' of the header to the appropriate 'tag' (e.g., DTI-60, RST; see [Data Naming Convention](/data/introduction/Data-Naming) for more details). The tag is used by our pipelines to figure out which kind of analysis to do for a given dataset, and can be used by you to find all available data:
 
 ```
 jdv@davinci:/archive/data-2.0/SPINS/data/nii$ find . -name '*RST*' > ~/list-of-SPINS-restingstate-nii.txt

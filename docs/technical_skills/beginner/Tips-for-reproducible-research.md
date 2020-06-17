@@ -6,7 +6,7 @@
 
 ### Using Git
 
-We have a very basic overview of how to [use git here](https://github.com/TIGRLab/documentation/wiki/Using-Git).
+We have a very basic overview of how to [use git here](/technical_skills/beginner/Using-Git).
 
 Jenny Bryan's Happy Git with R book is a super comprehensive book (still in draft form) that details how to use git for an R analysis project using the helper tools in rstudio. ([find it here](http://happygitwithr.com/))
 

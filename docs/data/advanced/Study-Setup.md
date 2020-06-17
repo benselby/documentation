@@ -86,9 +86,9 @@ If the last command ran without errors, you're set!
     5. New QCers should be scheduled for QC training with our lab!
 
 ## 9. Set up the run script(s)
-  - Add a script named `$YOURSTUDY_management.sh` to `/archive/code/config/` to turn on datman's core data management scripts ([see here](https://github.com/TIGRLab/documentation/wiki/Nightly-Pipelines#management-pipeline) for more info on each step). Copy another study's script to make your life easier :)
+  - Add a script named `$YOURSTUDY_management.sh` to `/archive/code/config/` to turn on datman's core data management scripts ([see here](/data/advanced/Archive-Pipelines?id=management) for more info on each step). Copy another study's script to make your life easier :)
   - NOTE: If your study has data shared from another study (i.e. scan sessions shared across studies under multiple names) you'll need to make sure the 'dm_link_shared_ids.py' script is in your run script, and have set up redcap (step 4) for the study for links to the data to be made.
-  - (Optional) Add a `$YOURSTUDY_analysis.sh` script to `/archive/code/config` to make use of the minimally preprocessed pipelines. [See here](https://github.com/TIGRLab/documentation/wiki/Nightly-Pipelines#analysis-pipeline) for more info on the scripts available.
+  - (Optional) Add a `$YOURSTUDY_analysis.sh` script to `/archive/code/config` to make use of the minimally preprocessed pipelines. [See here](/data/advanced/Archive-Pipelines?id=analysis) for more info on the scripts available.
   - Make sure the management and/or analysis scripts are executable!
   - Make a link in the study's bin folder named `run_data_kimel.sh` that points to the management script in `/archive/code/config/`. If you also have an 'analysis' script, make a _relative_ link (so the link doesnt break on the SCC) named `run_pipelines_scc.sh` pointing to your script.
   - Get your management script (and/or analysis script) to run nightly by updating `/archive/code/bin/run.sh` (or for analysis: `/archive/code/bin/runall_pipelines_scc.sh`). **NOTE:** make sure to add the new study both to the list of variables at the beginning of the script and also the list in 'all_projects' that appears right after.

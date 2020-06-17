@@ -19,6 +19,6 @@ alias sub_count="echo `ls /archive/data/SPINS/data/nii | grep SPN01 | grep -v PH
 alias load_modules="module load FSL; module load connectome-workbench; module load freesurfer; module load ciftify/2.3.3;"
 ```
 
-If you end up using private modules you can also use the bashrc file to add your modules automatically to your list of available modules without having to type `module use <path to your module files>` every time you open a terminal (see [Private Modules](https://github.com/TIGRLab/documentation/wiki/Private-Modules) for more info).
+If you end up using private modules you can also use the bashrc file to add your modules automatically to your list of available modules without having to type `module use <path to your module files>` every time you open a terminal (see [Private Modules](/resources/Private-Modules) for more info).
 
 One thing to note, though: If you put all of this in your bashrc file in your home directory then as soon as you move to another machine you'll lose all your predefined configuration. One solution to this is to put your .bashrc file in your projects (so it's backed up and available everywhere) and then in the bashrc file in your home directory (`~/.bashrc`) add `source <path to the bashrc in your projects>`. **NOTE:** Don't just make a symlink named .bashrc in your home that points to the one in your projects! If the network ever goes down you wont be able to log in at all!
