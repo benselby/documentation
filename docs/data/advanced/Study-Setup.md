@@ -19,11 +19,10 @@ Brace yourself, this will be a lot. We need to make this easier in the future...
   - If you have any files documenting standard operating procedure for different sites add them to a folder named `SOPs`
 
 ## 3. Set up XNAT
+  Information on how to use XNAT can be found on the [KCNI XNAT wiki](http://neurowiki.camh.ca/mediawiki/index.php/XNAT).
+  - If you haven't used XNAT before, you will have to attend a mandatory workshop and create an account, following the instructions [here](http://neurowiki.camh.ca/mediawiki/index.php/XNAT#Next_Steps)
   - Add any new accounts for the PI and any research assistants/collaborators they're known to have (this can be skipped till later) 
-  - Create a new project
-    - go to https://xnat.imaging-genetics.camh.ca and under 'New' on the menu bar select 'Project'
-    - Make sure to note the Project ID you use, since you'll need it for the settings file later (this should usually be the same as the study acronym / archive folder name).
-    - Set the correct investigator, creating a new entry for the PI if they're not present already.
+  - Request a new project following the instructions [here](http://neurowiki.camh.ca/mediawiki/index.php/XNAT#New_Project_Request)
   - After creating the study go to the 'access' tab and set the correct permissions
     - Default project permission should be 'private'
     - Add 'clevis', the PI, and any employees in the lab who will help manage the study as 'owners'
