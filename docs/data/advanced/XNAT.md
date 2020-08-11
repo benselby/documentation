@@ -39,5 +39,3 @@ Data stored in XNAT adheres to the following hierarchy:
       - Scan 1
       - Scan 2
       - ...
-
-The following sections will be an overview of XNAT **Projects, Subjects, Experiment, Scans,** as well as the conventions to be adhered to.

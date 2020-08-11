@@ -19,11 +19,8 @@ Brace yourself, this will be a lot. We need to make this easier in the future...
   - If you have any files documenting standard operating procedure for different sites add them to a folder named `SOPs`
 
 ## 3. Set up XNAT
-  If you haven't used XNAT before, find out how to do attend the training course, set up an account, and about our naming conventions [here](data/advanced/XNAT.md).
-  - Add any new accounts for the PI and any research assistants/collaborators they're known to have (this can be skipped till later) 
+  - If you haven't used XNAT before, find out how to do attend the training course, set up an account, and about our naming conventions [here](data/advanced/XNAT.md).
   - Request a new project for your study following the instructions on the XNAT wiki.
-  - After creating the study go to the 'access' tab and set the correct permissions
-    - Default project permission should be 'private'
     - Add 'clevis', the PI, and any employees in the lab who will help manage the study as 'owners'
     - Add any RAs from other sites as 'Members' (they can update and add but can't delete data)
 
