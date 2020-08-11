@@ -39,3 +39,21 @@ Data stored in XNAT adheres to the following hierarchy:
       - Scan 1
       - Scan 2
       - ...
+
+## XNAT Data Upload Procedure
+
+XNAT data upload must occur **as soon as possible** after the MR scanning session. The time to identify the TMS target is limited and is contingent on the availability of the participant’s MR data on XNAT.
+
+### Uploading DICOM Data
+
+As much as is possible, data should be submitted to XNAT as a single .zip file containing all DICOM data from a single ‘session’ in the scanner. To upload DICOM data, use [this guide](https://kcniconfluence.camh.ca/display/NPP/MR+Upload+Instructions).
+
+Use the Compressed Image Upload tool (as shown). Be patient, transfers can take ~30 minutes or more for a complete dataset. We do not need demographic information (e.g. age, sex) for which XNAT displays data entry fields. You may enter this (non-identifying) information if you like, but it is not recommended nor analyzed.
+
+### Uploading non-DICOM Data
+
+**IMPORTANT:** NON-DICOM DATA CANNOT BE RECEIVED IN THE SINGLE .ZIP FILE. BEHAVIOURAL MEASURES, MRI TECH NOTES IN PDF FORM, AND SOME SITES’ PHYSIOLOGICAL SIGNAL FILES NEED TO BE UPLOADED SEPARATELY. 
+
+Please create a separate file for these types of data in the participant’s ‘resources’ folder, in accordance with [these general instructions](https://kcniconfluence.camh.ca/display/NPP/Non-DICOM+Upload+Instructions). 
+
+Specifically, the task data output (both .txt and .edat2 files) should be uploaded to a folder under ‘resources’ called ‘behav’. In the unusual situation that any NIfTI files are to be uploaded, they should be uploaded to a folder under ‘resources’ called ‘NII’.
