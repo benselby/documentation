@@ -21,8 +21,6 @@ Brace yourself, this will be a lot. We need to make this easier in the future...
 ## 3. Set up XNAT
   - If you haven't used XNAT before, find out how to do attend the training course, set up an account, and about our naming conventions [here](data/advanced/XNAT.md).
   - Request a new project for your study following the instructions on the XNAT wiki.
-    - Add 'clevis', the PI, and any employees in the lab who will help manage the study as 'owners'
-    - Add any RAs from other sites as 'Members' (they can update and add but can't delete data)
 
 ## 4. (CAMH only) Update REDCap's scan completed survey 
    - Go to https://edc.camhx.ca/redcap/

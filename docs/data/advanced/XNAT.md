@@ -8,7 +8,8 @@ Neuroimaging data collected during the study will be stored in an **online MRI D
 **Contact:**  tigrlab@camh.ca
 
 ## Accessing the MRI Database
-Project members requiring access to the KCNI XNAT instance will need to complete an Online MRItraining course and then request an XNAT User account. Details on how this can be done are found [here](https://kcniconfluence.camh.ca/display/NPP/XNAT+Introduction).
+Project members requiring access to the KCNI XNAT instance will need to complete an [online training course](https://kcniconfluence.camh.ca/display/NPP/XNAT+Workshop) and then [request an XNAT user account](https://kcniconfluence.camh.ca/pages/viewpage.action?pageId=6455465#XNATIntroduction-NewUserRequest).
+
 
 **Details on User Request Form:**
 1. For the first question click **XNAT**.
@@ -21,7 +22,6 @@ The only browsers that are currently supported are FireFox, Microsoft Edge, and 
 ## XNAT Naming Convention
 In order to facilitate automatic data management, imaging data uploaded to XNAT must adhere to a common naming convention as implemented by the Krembil Neuroinformatics Institute (KCNI) Platform at CAMH. Further information can be found in the following links:
 - [XNAT Naming Convention](https://kcniconfluence.camh.ca/display/NPP/XNAT+Naming+Convention)
-- [XNAT Workshop](https://kcniconfluence.camh.ca/display/NPP/XNAT+Workshop)
 
 Data stored in XNAT adheres to the following hierarchy:
 - Project
