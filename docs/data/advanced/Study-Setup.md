@@ -19,15 +19,8 @@ Brace yourself, this will be a lot. We need to make this easier in the future...
   - If you have any files documenting standard operating procedure for different sites add them to a folder named `SOPs`
 
 ## 3. Set up XNAT
-  - Add any new accounts for the PI and any research assistants/collaborators they're known to have (this can be skipped till later) 
-  - Create a new project
-    - go to https://xnat.imaging-genetics.camh.ca and under 'New' on the menu bar select 'Project'
-    - Make sure to note the Project ID you use, since you'll need it for the settings file later (this should usually be the same as the study acronym / archive folder name).
-    - Set the correct investigator, creating a new entry for the PI if they're not present already.
-  - After creating the study go to the 'access' tab and set the correct permissions
-    - Default project permission should be 'private'
-    - Add 'clevis', the PI, and any employees in the lab who will help manage the study as 'owners'
-    - Add any RAs from other sites as 'Members' (they can update and add but can't delete data)
+  - If you haven't used XNAT before, find out how to do attend the training course, set up an account, and about our naming conventions [here](data/advanced/XNAT.md).
+  - Request a new project for your study following the instructions on the XNAT wiki.
 
 ## 4. (CAMH only) Update REDCap's scan completed survey 
    - Go to https://edc.camhx.ca/redcap/

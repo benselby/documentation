@@ -45,6 +45,7 @@
   - [QC - Dashboard](data/intermediate/QC---dashboard.md)
   - [QC - Kimel Staff](data/intermediate/QC---Kimel-staff.md)
   - [QC - Terminal](data/intermediate/QC---terminal.md)
+  - [XNAT](data/advanced/XNAT.md)
   - [Study Setup](data/advanced/Study-Setup.md)
   - [Organization](data/advanced/Data-Organization.md)
   - [Archiving Pipelines](data/advanced/Archive-Pipelines.md)
