@@ -25,6 +25,7 @@
 
 - Resources
 
+  - [fMRI Bootcamp](https://cbmm.mit.edu/fmri-bootcamp)
   - [Compute Cluster](resources/Compute-Clusters.md)
   - [Private Modules](resources/Private-Modules.md)
   - [Laptops](resources/Laptops.md)
